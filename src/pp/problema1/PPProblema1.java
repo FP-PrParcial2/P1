@@ -17,20 +17,15 @@ public class PPProblema1 {
     public static void main(String[] args) {
      int año, calcular;
     }
-    public static int entradaDato(){
+    public static void entradaDato(){
     int año;
     Scanner entrada= new Scanner(System.in);
         System.out.println("Introduce el año");
        año=entrada.nextInt();
-          
-    return año;   
-   }
-    public static int calcular(int año){  
         if(año % 4 == 0 && año % 100 != 0 || año % 400 == 0){
             System.out.println("El año:"+ año +"es bisiesto");  
        }else{
             System.out.println("El año:"+ año +"no es bisiesto");
            }
-    return año;
     }
 }
