@@ -15,7 +15,7 @@ public class PPProblema1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     int año, calcular;
+     int año;
     }
     public static void entradaDato(){
     int año;
