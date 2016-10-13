@@ -15,17 +15,14 @@ public class PPProblema1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     int año;
-    }
-    public static void entradaDato(){
     int año;
     Scanner entrada= new Scanner(System.in);
-        System.out.println("Introduce el año");
-       año=entrada.nextInt();
-        if(año % 4 == 0 && año % 100 != 0 || año % 400 == 0){
-            System.out.println("El año:"+ año +"es bisiesto");  
+       System.out.println("Introduce el año");
+        año = entrada.nextInt();
+        if((año % 4 == 0) && (año % 400 == 0) ){
+            System.out.println("El año:"+ año +"ES bisiesto");  
        }else{
-            System.out.println("El año:"+ año +"no es bisiesto");
+            System.out.println("El año:"+ año +"NO es bisiesto");
            }
     }
 }
