@@ -21,8 +21,12 @@ public class PPProblema1 {
         año = entrada.nextInt();
         if((año % 4 == 0) && (año % 400 == 0) ){
             System.out.println("El año:"+ año +"ES bisiesto");  
-       }else{
+       }
+        else if(año % 100==0){
             System.out.println("El año:"+ año +"NO es bisiesto");
            }
+        else{
+            System.out.println("El año:" + año + "NO es bisisesto");
+        }
     }
 }
